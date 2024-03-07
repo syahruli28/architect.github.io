@@ -17,7 +17,7 @@
     <!-- header -->
     <header class="header">
         <div class="flex">
-            <a href="" class="logo"><img src="./img/logo.svg" alt="logo" loading="lazy"></a>
+            <a href="./index.html" class="logo"><img src="./img/logo.svg" alt="logo" loading="lazy"></a>
             <nav class="navbar">
                 <a href="./index.html">main</a>
                 <a href="./gallery.html">gallery</a>
@@ -36,11 +36,24 @@
             <h2><span>project</span></h2>
             <h3>lorum</h3>
 
+            <div class="arrow">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+
         </div>
-        <div class="image">
-            <img src="./img/home-img.png" alt="home" loading="lazy">
-            <div class="text-image">
-                <a href="#">view project</a>
+        <div class="image-container">
+            <div class="mySlides fade">
+                <img src="./img/home-img.png" alt="home-1" loading="lazy">
+                <div class="text-image">
+                    <a href="./projects.html">view project 1</a>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/home-img.png" alt="home-2" loading="lazy">
+                <div class="text-image">
+                    <a href="./projects.html">view project 2</a>
+                </div>
             </div>
         </div>
     </section>
