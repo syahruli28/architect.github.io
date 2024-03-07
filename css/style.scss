@@ -272,7 +272,7 @@ section {
 
         .box {
             margin-top: 5rem;
-            flex: 1 1 10rem;
+            flex: 1 1 25rem;
             display: flex;
             gap: 4rem;
             align-items: center;
@@ -771,7 +771,7 @@ section {
     .mission {
         .content {
             .box {
-                flex-wrap: wrap;
+                flex-wrap: nowrap;
             }
         }
     }
