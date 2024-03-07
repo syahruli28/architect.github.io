@@ -39,6 +39,12 @@ html {
     }
 }
 
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -484,13 +490,10 @@ section {
 
 // halaman galeri
 .gallery-image {
-    display: flex;
-    gap: 3rem;
     margin-bottom: 10rem;
-    flex-wrap: wrap;
+    @include grid(18rem);
 
     img {
-        flex: 1 1 15rem;
         width: 100%;
     }
 }

@@ -395,13 +395,12 @@ section {
 }
 
 .gallery-image {
-  display: flex;
-  gap: 3rem;
   margin-bottom: 10rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
 }
 .gallery-image img {
-  flex: 1 1 15rem;
   width: 100%;
 }
 
