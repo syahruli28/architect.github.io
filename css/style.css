@@ -456,8 +456,13 @@ section {
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
+.project-container .box:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
 .project-container .box .image {
   flex: 1 1 30rem;
+  overflow: hidden;
 }
 .project-container .box .image img {
   width: 100%;
