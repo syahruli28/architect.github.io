@@ -386,12 +386,23 @@ section {
 .footer-bg .box-container .box .social-media a:hover {
   margin-left: 0;
 }
-.footer-bg p {
+.footer-bg .credit {
+  margin-top: 5rem;
+  border-top: 0.5rem solid #C4C4C4;
+}
+.footer-bg .credit p {
   color: #C4C4C4;
   text-transform: capitalize;
   text-align: center;
   margin-top: 5rem;
   font-size: 1.6rem;
+}
+.footer-bg .credit p a {
+  color: #C4C4C4;
+}
+.footer-bg .credit p a:hover {
+  color: #ffffff;
+  padding-left: 0.5rem;
 }
 
 .gallery-image {

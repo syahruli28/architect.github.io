@@ -475,12 +475,27 @@ section {
         }
     }
 
-    p {
-        color: $gray;
-        text-transform: capitalize;
-        text-align: center;
+    .credit {
         margin-top: 5rem;
-        font-size: 1.6rem;
+        border-top: .5rem solid $gray;
+
+
+        p {
+            color: $gray;
+            text-transform: capitalize;
+            text-align: center;
+            margin-top: 5rem;
+            font-size: 1.6rem;
+
+            a {
+                color: $gray;
+
+                &:hover {
+                    color: $white;
+                    padding-left: .5rem;
+                }
+            }
+        }
     }
 }
 
